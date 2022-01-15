@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .container {
         padding: 0 80px;
     }
@@ -113,7 +113,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .container {
         padding: 0 40px;
     }
