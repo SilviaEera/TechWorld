@@ -1,0 +1,230 @@
+@media (max-width: 769px) {
+    .container {
+        padding: 0 80px;
+    }
+    .half-width {
+        width: 100%;
+    }
+    /* journey */
+    .journey .container {
+        padding: 150px 0 80px 0;
+    }
+    .header-part .container nav {
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+    .journey .container .image-block {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .journey .text-block {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 180PX;
+    }
+    .image-block .circle {
+        width: 40%;
+        padding-left: 0;
+        position: absolute;
+        top: -135px;
+        left: 230px;
+    }
+    .image-block .camera {
+        width: 40%;
+        top: -140px;
+        left: 240px;
+    }
+    .text-block {
+        text-align: center;
+    }
+    .text-block .main-heading {
+        font-size: 28px;
+        padding-top: 60px;
+        padding-right: 0;
+    }
+    .journey-info {
+        padding-right: 0;
+    }
+    hr {
+        display: none;
+    }
+    .customer .container {
+        padding: 0 40px 40px 40px;
+    }
+    .customer .container .company-logo {
+        padding: 0px 0px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 20px;
+        justify-items: center;
+    }
+    .company-logo img {
+        width: 50%;
+    }
+    .item-block {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .item {
+        margin: 8%;
+    }
+    .extra-item {
+        padding-bottom: 40px;
+    }
+    .extra-item a {
+        padding-right: 20px;
+        font-size: 18px;
+    }
+    .collection .container {
+        padding: 0 30px;
+    }
+    /* review */
+    .review-block {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .outer-layer {
+        position: absolute;
+        top: 60px;
+        left: 74px;
+        background: #faeded;
+        width: 95%;
+    }
+    .review-item {
+        margin-bottom: 25%;
+    }
+    .review-item .review-img {
+        position: absolute;
+        top: -56px;
+        left: -50px;
+        max-width: 20%;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    /* footer */
+    .footer-info-block .icons i {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 376px) {
+    .container {
+        padding: 0 40px;
+    }
+    .half-width {
+        width: 100%;
+    }
+    nav .nav-list>ul {
+        display: none;
+    }
+    /* journey */
+    .journey .container {
+        padding: 150px 0 80px 0;
+    }
+    .header-part .container nav {
+        justify-content: center;
+    }
+    .journey .container .image-block {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    .journey .text-block {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .image-block .circle {
+        width: 256px;
+        height: 256px;
+        padding-left: 0;
+        position: absolute;
+        top: -135px;
+        left: 60px;
+    }
+    .image-block .camera {
+        width: 202px;
+        height: 190px;
+        top: -100px;
+        left: 90px;
+    }
+    .text-block {
+        text-align: center;
+    }
+    .text-block .main-heading {
+        font-size: 28px;
+        padding-top: 60px;
+        padding-right: 0;
+    }
+    .journey-info {
+        padding-right: 0;
+    }
+    hr {
+        display: none;
+    }
+    .customer .container {
+        padding: 0 40px 40px 40px;
+    }
+    .customer .container .company-logo {
+        padding: 0px 0px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 20px;
+        justify-items: center;
+    }
+    .company-logo img {
+        width: 50%;
+    }
+    .item-block {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        /* grid-row-gap: 50px; */
+    }
+    .extra-item {
+        padding-bottom: 40px;
+    }
+    .extra-item a {
+        padding-right: 20px;
+        font-size: 16px;
+    }
+    .collection .container {
+        padding: 0 30px;
+    }
+    /* review */
+    .review-block {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .outer-layer {
+        position: absolute;
+        top: 60px;
+        left: 45px;
+        background: #faeded;
+        width: 95%;
+    }
+    .review-item {
+        margin-bottom: 25%;
+    }
+    .review-item .review-img {
+        position: absolute;
+        top: -46px;
+        left: -40px;
+        max-width: 30%;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    /* footer */
+    .footer-info-block .icons i {
+        margin: 0 10px;
+    }
+}
